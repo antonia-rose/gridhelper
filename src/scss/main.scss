@@ -1,0 +1,12 @@
+@import 'grid';
+
+.container {
+  margin: 0 auto;
+  @include grid-container(12, 1024px, 0.5em, false);
+}
+
+header {
+  background: yellow;
+  grid-column: 1 / span 12;
+}
+
